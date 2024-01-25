@@ -51,9 +51,9 @@ git clone https://github.com/Jawabreh0/CyprusCodes_LLM.git
 git clone https://huggingface.co/meetkai/functionary-7b-v2
 ```
 
-8. Change Directory to CyprusCodes_LLM and Install Requirements: Navigate to the CyprusCodes_LLM directory and install the required dependencies:
+8. Change Directory to CyprusCodes_LLM inference server and Install Requirements: Navigate to the CyprusCodes_LLM directory and install the required dependencies:
 ```bash
-%cd CyprusCodes_LLM
+%cd CyprusCodes_LLM/inference
 pip install -r requirements.txt
 ```
 
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 10. Change Directory to CyprusCodes_LLM: Inside the terminal, change the directory to CyprusCodes_LLM:
 ```bash
-cd gdrice/MyDrive/cypruscodesllm_test/CyprusCodes_LLM
+cd gdrice/MyDrive/cypruscodesllm_test/CyprusCodes_LLM/inference
 ```
 
 11. Run the Server: Run the server from the terminal (do not run it from the cells):
