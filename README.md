@@ -34,5 +34,8 @@ Running a large language model (LLM) locally can be a bit complex, and the choic
 https://github.com/Jawabreh0/CyprusCodes_LLM/assets/98946028/ff469318-3477-4bc9-ae99-751d6ace6ae9
 
 As our project designed mainly to give the user the best experince so we designed it to run on the GPU and here it comes that to run the server you need a GPU with 30 - 40 GB vRAM, below is the hardware resources usage while running the server.
+![Example Image](assets/resources_usage.png)
+
+
 
 
