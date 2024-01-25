@@ -11,3 +11,14 @@ The model is designed to intelligently decide the timing and sequence of functio
 git clone git@github.com:Jawabreh0/CyprusCodes_LLM.git
 cd CyprusCodes_LLM
 ```
+
+2. Install PyTorch
+PyTorch with CPU support
+```bach
+pip install torch
+```
+OR
+If you have a compatible GPU and want to install PyTorch with GPU support (CUDA)
+```bach
+pip install torch torchvision torchaudio -f https://download.pytorch.org/whl/cpu/torch_stable.html
+```
