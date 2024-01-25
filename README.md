@@ -30,6 +30,7 @@ pip install -r requirements.txt
 
 4. Run The Server
 Running a large language model (LLM) locally can be a bit complex, and the choice between CPU or GPU depends on your machine's capabilities. While there are projects like [LocalAI](https://github.com/mudler/LocalAI) that aim to enable LLM execution on CPUs, it's important to note that running an LLM on your CPU, even if it's a powerful one, may not yield satisfactory performance. The process of sending a prompt and receiving a response from the LLM when it runs on a CPU can take anywhere from 30 seconds to 3 minutes. This demonstrates that running an LLM on a CPU is not the most efficient approach. However, you can explore [LocalAI](https://github.com/mudler/LocalAI) if you have specific reasons to do so. Below, you can find evidence of the time it takes to run a simple prompt without function calls on a 4-core CPU.
+
 <video width="640" height="360" controls>
   <source src="assets/localai_cpu.mp4" type="video/mp4">
   Your browser does not support the video tag.
