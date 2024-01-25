@@ -124,7 +124,7 @@ You can customize the "function_calling.py" script according to your specific re
 This type of work is hardware hungry work, so according to our test the required hardware resourses is 
 * GPU With 40GB vRam such as Nvidea V100 or 2x RTX3090/TI with NvLink
 * 8-16 GB Ram
-* Any CPU with 8 cores and multi threading such as Intel I7 10700F
+* Any CPU with 8 cores and multi threading such as Intel i7 10700F
 
 Here is the hardware resources usage during our tests 
 
