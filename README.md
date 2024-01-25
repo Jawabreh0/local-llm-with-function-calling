@@ -6,35 +6,26 @@ The model is designed to intelligently decide the timing and sequence of functio
 
 ## Setup
 
-1. Clone the repository:
-```bach
-git clone git@github.com:Jawabreh0/CyprusCodes_LLM.git
-cd CyprusCodes_LLM
+1. Prepare The Server Side Work
+
+There are two ways to do that, either running it on a cloud computing resources, or running it localy, for the cloud computing resources i'll use Google Collab
+
+1.1 Prepare The Server Side Work On Google Collab
+
+1.1.1 Create New Collab Note Book
+
+1.1.2 Mount the drive
+```bash
+from google.colab import drive
+drive.mount("/content/gdrive")
 ```
 
-2. Install PyTorch
-PyTorch with CPU support
-```bach
-pip install torch
-```
-OR
-If you have a compatible GPU and want to install PyTorch with GPU support (CUDA)
-```bach
-pip install torch torchvision torchaudio -f https://download.pytorch.org/whl/cpu/torch_stable.html
+1.1.3 Change directory to MyDrive
+```bash
+%cd /content/gdrive/MyDrive/
 ```
 
-3. Install the required dependencies
-```bach
-pip install -r requirements.txt
-```
 
-4. Run The Server
-Running a large language model (LLM) locally can be a bit complex, and the choice between CPU or GPU depends on your machine's capabilities. While there are projects like [LocalAI](https://github.com/mudler/LocalAI) that aim to enable LLM execution on CPUs, it's important to note that running an LLM on your CPU, even if it's a powerful one, may not yield satisfactory performance. The process of sending a prompt and receiving a response from the LLM when it runs on a CPU can take anywhere from 30 seconds to 3 minutes. This demonstrates that running an LLM on a CPU is not the most efficient approach. However, you can explore [LocalAI](https://github.com/mudler/LocalAI) if you have specific reasons to do so. Below, you can find evidence of the time it takes to run a simple prompt without function calls on a 4-core CPU.
-
-https://github.com/Jawabreh0/CyprusCodes_LLM/assets/98946028/ff469318-3477-4bc9-ae99-751d6ace6ae9
-
-As our project designed mainly to give the user the best experince so we designed it to run on the GPU and here it comes that to run the server you need a GPU with 30 - 40 GB vRAM, below is the hardware resources usage while running the server.
-![Example Image](assets/resources_usage.png)
 
 
 
