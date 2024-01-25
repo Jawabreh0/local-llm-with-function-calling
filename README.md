@@ -127,6 +127,7 @@ This type of work is hardware hungry work, so according to our test the required
 * Any CPU with 8 cores and multi threading such as Intel I7 10700F
 
 Here is the hardware resources usage during our tests 
+
 ![resources_usage](assets/resources_usage.png)
 
 
