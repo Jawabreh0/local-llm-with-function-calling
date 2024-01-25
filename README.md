@@ -89,4 +89,44 @@ print("Public URL:", public_url
 Now, your server is running in the terminal, and you have provided a public URL for clients to access it.
 
 
+## Setting Up the Client on Your Machine and Starting a Conversation
+To interact with the CyprusCodes LLM server, follow these steps to set up the client on your local machine:
+
+1. Clone the Repository Clone the project repository to your machine using the following command:
+```bash
+git clone https://github.com/Jawabreh0/CyprusCodes_LLM.git
+```
+
+2. Navigate to the Client Directory Change the directory to the "client" directory within the cloned repository and install the client's requirements:
+```bash
+cd client
+pip install -r requirements.txt
+```
+
+3. Open the Client Directory You can open the client files using your preferred code editor, such as Visual Studio Code or PyCharm.
+
+4. Configure Conversation.py
+In the "conversation.py" file, make the following adjustments:
+    * Update the server_url in line number 4 to match the public server URL provided by ngrok.
+    * Modify the model in line number 19 to align with the argument "--model" used in the deployment scripts, either "server_vllm.py" or "server.py."
+
+6. Run Conversation.py Execute the "conversation.py" script. Provide a prompt, and you will receive a response from the CyprusCodes LLM.
+
+7. Engage in Function Calling (Optional) If you want to have conversations with function calling capabilities, follow these additional steps:
+    * Navigate to the "function_calling.py" file.
+    * Modify the openai.api_base and model as you did in "conversation.py."
+    * Run the script, provide a prompt, and receive a response with function calling capabilities.
+
+8. . Customize Function Calling (Optional)
+You can customize the "function_calling.py" script according to your specific requirements, allowing you to tailor the interactions with the CyprusCodes LLM to suit your needs.
+
+## Hardware Resources Needed:
+This type of work is hardware hungry work, so according to our test the required hardware resourses is 
+* GPU With 40GB vRam such as Nvidea V100 or 2x RTX3090/TI with NvLink
+* 8-16 GB Ram
+* Any CPU with 8 cores and multi threading such as Intel I7 10700F
+
+Here is the hardware resources usage during our tests 
+![Lresources_usage](resources_usage.png)
+
 
