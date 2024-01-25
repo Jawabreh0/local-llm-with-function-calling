@@ -130,4 +130,29 @@ Here is the hardware resources usage during our tests
 
 ![resources_usage](assets/resources_usage.png)
 
+## Other Solutions:
+There are a lot of resources on the internet to run your LLM localy including but not limited to the following
+- LocalAGI
+- superAGI
+- AutoGPT
+- babyGPT
+- MultiOn_AI
+- AgentGPT
+- God_Mood
+- ibabyAGI / ios
+- LocalAI
+  
+Most of these project are good, but if your looking for running your lcoal LLM with function calling with simple setup and reliable solution this is the best choice ever.
+
+## LocalAI
+LocalAI one of the good project for this goal as it provides tens of models, and flexability to work with it, but there is a huge problem, which is LocalAI designed mainly to allow the users to run their models localy on their CPU instead of GPU, they are supporting function calling / tools. But is running your LLM on CPU instead of GPU is a good idea?
+
+Using a GPU instead of a CPU for running Large Language Models (LLMs) like Mistral 7B or LLaMA offers significant advantages due to its parallel processing capabilities and optimized performance. GPUs excel at handling the intensive mathematical operations required by LLMs, resulting in faster execution, efficient memory utilization, and cost-effective high-performance computing. This makes GPUs the preferred choice for researchers and developers working with LLMs, enabling quicker model training and inference, especially when dealing with large models and datasets.
+
+We have tested LocalAI by running it on a 4-cores cpu with multi threading and it took us 3 minutes to recive response from the LLM, which running you LLM localy on your cpu is good if you want to do it for some reason, but if your looking for reliability the only choice is GPU.
+
+BTW, LocalAI supports also running your Local LLM on the GPU, but it's not the main objective of their projct, below is an evidence of the time it take LocalAI to return response from 7B Param LLM that's running on 4-cores cpu with multi threading.
+
+https://github.com/Jawabreh0/CyprusCodes_LLM/assets/98946028/bc98448c-dd72-4f67-a6d7-3b36745d0482
+
 
