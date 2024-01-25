@@ -155,4 +155,10 @@ It's worth noting that LocalAI does support running your Local LLM on a GPU, alt
 
 https://github.com/Jawabreh0/CyprusCodes_LLM/assets/98946028/bc98448c-dd72-4f67-a6d7-3b36745d0482
 
+## What Are The Best Open-Source LLM's We Can Use
+
+Here's a [Link]([https://www.openai.com](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard)) to the LLM leaders dashbord on HUggingFace, below is the top-10 LLMs, but if you take a look you will find that only mIXTRAL-8x7b-Instruct-v0.1 model in the top 10 is the open-source LLM so it's the best choice.
+
+![top-10-LLMs](assets/LLM_leader_dashboard.png)
+
 
