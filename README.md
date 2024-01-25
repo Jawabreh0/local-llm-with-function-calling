@@ -142,16 +142,16 @@ There are a lot of resources on the internet to run your LLM localy including bu
 - ibabyAGI / ios
 - LocalAI
   
-Most of these project are good, but if your looking for running your lcoal LLM with function calling with simple setup and reliable solution this is the best choice ever.
+Many of these projects are commendable, but if you are seeking a hassle-free and dependable solution for running your local Large Language Model (LLM) with function calling, this is undoubtedly the optimal choice.
 
 ## LocalAI
-LocalAI one of the good project for this goal as it provides tens of models, and flexability to work with it, but there is a huge problem, which is LocalAI designed mainly to allow the users to run their models localy on their CPU instead of GPU, they are supporting function calling / tools. But is running your LLM on CPU instead of GPU is a good idea?
+LocalAI is indeed a noteworthy project for achieving your goals in the AI field. It offers a wide range of models and provides flexibility in working with them. However, there is a significant drawback to consider. LocalAI is primarily designed for running models on your CPU rather than utilizing the power of a GPU.
 
-Using a GPU instead of a CPU for running Large Language Models (LLMs) like Mistral 7B or LLaMA offers significant advantages due to its parallel processing capabilities and optimized performance. GPUs excel at handling the intensive mathematical operations required by LLMs, resulting in faster execution, efficient memory utilization, and cost-effective high-performance computing. This makes GPUs the preferred choice for researchers and developers working with LLMs, enabling quicker model training and inference, especially when dealing with large models and datasets.
+When it comes to running Large Language Models (LLMs) like Mistral 7B or LLaMA, opting for a GPU over a CPU is a highly recommended choice. GPUs excel in handling the intensive mathematical operations required by LLMs, thanks to their parallel processing capabilities and optimized performance. This translates into faster execution, efficient memory usage, and cost-effective high-performance computing. As a result, GPUs are the preferred option for researchers and developers dealing with LLMs, especially when dealing with large models and datasets.
 
-We have tested LocalAI by running it on a 4-cores cpu with multi threading and it took us 3 minutes to recive response from the LLM, which running you LLM localy on your cpu is good if you want to do it for some reason, but if your looking for reliability the only choice is GPU.
+To put it in perspective, we conducted a test using LocalAI on a 4-core CPU with multi-threading, and it took us 3 minutes to receive a response from the LLM. While running an LLM on your CPU can be suitable for specific reasons, if you prioritize reliability and efficiency, GPU usage is the way to go.
 
-BTW, LocalAI supports also running your Local LLM on the GPU, but it's not the main objective of their projct, below is an evidence of the time it take LocalAI to return response from 7B Param LLM that's running on 4-cores cpu with multi threading.
+It's worth noting that LocalAI does support running your Local LLM on a GPU, although it's not the primary focus of their project. Below is an example demonstrating the time it takes for LocalAI to return a response from a 7B Param LLM running on a 4-core CPU with multi-threading.
 
 https://github.com/Jawabreh0/CyprusCodes_LLM/assets/98946028/bc98448c-dd72-4f67-a6d7-3b36745d0482
 
