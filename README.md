@@ -4,6 +4,16 @@ CyprusCodes LLM, is a language model that can interpret and execute functions/to
 
 The model is designed to intelligently decide the timing and sequence of function executions, opting for either parallel or serial processing based on the requirements. It is capable of interpreting the outputs of these functions and initiates them only when necessary. The definitions of these functions are structured as JSON Schema Objects, which bear resemblance to the function calls used in OpenAI GPT.
 
+## What is OpenAI's Function Calling
+
+In an API call, you can describe functions and have the model intelligently choose to output a JSON object containing arguments to call one or many functions. The Chat Completions API does not call the function; instead, the model generates JSON that you can use to call the function in your code.
+
+How it works ? 
+
+![openai_functions](assets/openai_functions.png)
+
+
+
 ## Setup Server On Google Collb
 
 You can set up a server on Google Colab to run your projects. There are two ways to do this: using cloud computing resources or running it locally. In this guide, we will use Google Colab for cloud-based server setup.
