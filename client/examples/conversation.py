@@ -1,7 +1,7 @@
 import requests
 
 # Set the URL of your LLM server's inference endpoint
-server_url = "https://7a63-34-143-151-63.ngrok-free.app/v1/chat/completions"
+server_url = "https://4570-34-125-55-28.ngrok-free.app/v1/chat/completions"
 
 # Get the user's prompt input
 user_prompt = input("Enter your prompt: ")
