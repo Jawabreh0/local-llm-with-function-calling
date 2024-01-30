@@ -119,6 +119,25 @@ In the "conversation.py" file, make the following adjustments:
 
 8. . Customize Function Calling (Optional)
 You can customize the "function_calling.py" script according to your specific requirements, allowing you to tailor the interactions with the CyprusCodes LLM to suit your needs.
+## How Client Works? 
+
+![clinet_flowchart](assets/clinet_flowchart.png)
+
+1. Client Initialization: The OpenAI client is initialized with a specific base URL and API key. This setup allows communication with the MeetKai server.
+
+2. Tools Definition: An array of tools is defined. Each tool (function) has a name, description, and parameters (structured as JSON schema). In this example, get_flight_info is the defined tool.
+
+3. Function Implementation: The get_flight_info function is implemented in Python. It should contain the logic to return flight information based on the origin and destination. Here, it’s a placeholder that returns a mock response.
+
+4. Sending User Prompt: The script sends a user prompt to the MeetKai model by constructing a request payload with the user's message and the defined tools.
+
+5. Processing the Model's Response: After sending the initial request, the script checks if the model's response includes a call to any of the defined tools.
+
+6. Executing the Function: If a function call is detected, the script extracts the arguments, calls the corresponding Python function (get_flight_info), and captures the result.
+
+7. Follow-up Request with Function Result: The script then sends a follow-up request to the model, including both the original user prompt and the result of the function call. This allows the model to generate a response that incorporates the function's output.
+
+8. Displaying the Final Output: Finally, the script prints the model's response to the follow-up request, providing a complete answer based on the function's execution.
 
 ## Hardware Resources Needed:
 This type of work is hardware hungry work, so according to our test the required hardware resourses is 
