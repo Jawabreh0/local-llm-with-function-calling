@@ -1,4 +1,4 @@
-# CyprusCodes LLM
+# Mistral 7b Function Calling
 
 CyprusCodes LLM, is a language model that can interpret and execute functions/tools. 
 
